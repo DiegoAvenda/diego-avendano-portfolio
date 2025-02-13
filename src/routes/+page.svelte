@@ -38,7 +38,7 @@
 		I specialize in building functional, scalable, and high-performance e-commerce with a focus on
 		clean architecture and great user experience.
 	</p>
-	<button class="btn mt-3">Projects</button>
+	<button class="btn btn-outline mt-3 rounded-4xl">Projects</button>
 </div>
 
 <div
@@ -81,8 +81,10 @@
 	<h2 class="text-2xl font-bold">Novastra</h2>
 	<p class="px-8">Tarot readings</p>
 	<div class="mt-3">
-		<a href="https://novaastraco.vercel.app/"><button class="btn mr-2 rounded-4xl">Live</button></a>
-		<button class="btn rounded-4xl">Repo</button>
+		<a href="https://novaastraco.vercel.app/"
+			><button class="btn btn-outline mr-2 rounded-4xl">Live</button></a
+		>
+		<button class="btn btn-outline rounded-4xl">Repo</button>
 	</div>
 </div>
 
@@ -93,9 +95,9 @@
 	<p class="px-8">Dark Kitchen</p>
 	<div class="mt-3 mb-14">
 		<a href="https://chucky-burgers.vercel.app/"
-			><button class="btn mr-2 rounded-4xl">Live</button></a
+			><button class="btn-outline btn mr-2 rounded-4xl">Live</button></a
 		>
-		<button class="btn btn-xs rounded-4xl">Repo</button>
+		<button class="btn btn-outline rounded-4xl">Repo</button>
 	</div>
 </div>
 
@@ -104,9 +106,9 @@
 	<p class="px-8">Appointments system</p>
 	<div class="mt-3">
 		<a href="https://nirvana-nails.vercel.app/"
-			><button class="btn mr-2 rounded-4xl">Live</button></a
+			><button class="btn btn-outline mr-2 rounded-4xl">Live</button></a
 		>
-		<button class="btn rounded-4xl">Repo</button>
+		<button class="btn btn-outline rounded-4xl">Repo</button>
 	</div>
 </div>
 
@@ -118,5 +120,5 @@
 		on performance, security, and seamless user interactions. My goal is to create functional,
 		well-structured solutions that deliver real value.
 	</p>
-	<button class="btn mt-1 rounded-4xl">Live</button>
+	<button class="btn btn-outline mt-1 rounded-4xl">Live</button>
 </div>
