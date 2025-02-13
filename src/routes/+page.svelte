@@ -122,3 +122,16 @@
 	</p>
 	<button class="btn btn-outline mt-1 rounded-4xl">Live</button>
 </div>
+
+<div class="flex h-screen flex-col items-center bg-[url(/k-joi.jpg)] bg-cover bg-center">
+	<h2 class="mt-18 text-2xl font-bold">Contact</h2>
+	<p class="px-8">Get in contact with me</p>
+	<div class="mt-3 flex flex-col gap-2">
+		<a href="https://github.com/DiegoAvenda"
+			><button class="btn btn-outline mr-2 rounded-4xl">Github</button></a
+		>
+		<a href="https://github.com/DiegoAvenda"
+			><button class="btn btn-outline mr-2 rounded-4xl">digago7@gmail.com</button></a
+		>
+	</div>
+</div>
