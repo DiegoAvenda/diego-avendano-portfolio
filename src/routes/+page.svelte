@@ -81,7 +81,7 @@
 	<h2 class="text-2xl font-bold">Novastra</h2>
 	<p class="px-8">Tarot readings</p>
 	<div class="mt-3">
-		<button class="btn mr-2 rounded-4xl">Live</button>
+		<a href="https://novaastraco.vercel.app/"><button class="btn mr-2 rounded-4xl">Live</button></a>
 		<button class="btn rounded-4xl">Repo</button>
 	</div>
 </div>
@@ -92,8 +92,10 @@
 	<h2 class="text-2xl font-bold">Svelte Burger</h2>
 	<p class="px-8">Dark Kitchen</p>
 	<div class="mt-3 mb-14">
-		<button class="btn mr-2 rounded-4xl">Live</button>
-		<button class="btn rounded-4xl">Repo</button>
+		<a href="https://chucky-burgers.vercel.app/"
+			><button class="btn mr-2 rounded-4xl">Live</button></a
+		>
+		<button class="btn btn-xs rounded-4xl">Repo</button>
 	</div>
 </div>
 
@@ -101,7 +103,9 @@
 	<h2 class="mt-24 text-2xl font-bold">Barber Shop</h2>
 	<p class="px-8">Appointments system</p>
 	<div class="mt-3">
-		<button class="btn mr-2 rounded-4xl">Live</button>
+		<a href="https://nirvana-nails.vercel.app/"
+			><button class="btn mr-2 rounded-4xl">Live</button></a
+		>
 		<button class="btn rounded-4xl">Repo</button>
 	</div>
 </div>
