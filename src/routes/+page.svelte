@@ -5,26 +5,24 @@
 </script>
 
 <div
-	class="flex h-screen flex-col items-center bg-[url(/blade-runner-2049.jpg)] bg-cover bg-center"
+	class="flex h-screen flex-col items-center justify-end bg-[url(/blade-runner-2049.jpg)] bg-cover bg-center"
 >
-	<h1 class="mt-20 text-2xl font-bold">Diego Avendaño</h1>
-	<h2 class="my-1 text-xl font-bold">Full stack developer</h2>
-	<p class="mx-6">
-		I specialize in building scalable, high-performance e-commerce platforms with a focus on clean
-		architecture and exceptional user experience.
+	<h1 class="mb-2 text-2xl font-bold lg:text-5xl">Diego Avendaño</h1>
+	<p class="mx-16 mb-20 text-lg sm:w-md">
+		Full stack developer focusing on building scalable and high-performance e-commerce platforms.
 	</p>
 </div>
 
 <div
 	id="tools"
-	class="flex h-screen flex-col items-center justify-center gap-6 bg-[url(/blade-runner.jpg)] bg-cover bg-center px-4"
+	class="flex h-screen flex-col items-center justify-center gap-2 bg-[url(/blade-runner.jpg)] bg-cover bg-center"
 >
 	<h2 class="text-3xl font-bold">Technologies</h2>
 
-	<div class="flex max-w-4xl flex-wrap justify-center gap-8">
-		<div class="flex flex-col items-center gap-4">
+	<div class="flex max-w-4xl flex-wrap justify-center">
+		<div class="flex flex-col items-center">
 			<h3 class="text-xl font-semibold">Frontend</h3>
-			<div class="grid grid-cols-3 gap-6">
+			<div class="grid grid-cols-3">
 				{#each frontend as front}
 					<div class="flex flex-col items-center">
 						<img class="h-14 w-14 object-contain" src={front.image} alt={front.name} />
@@ -68,7 +66,7 @@
 	<p class="px-8">Tarot readings</p>
 	<div class="mt-3">
 		<a class="btn btn-outline mr-2 rounded-4xl" href="https://novaastraco.vercel.app/">Live</a>
-		<a class="btn btn-outline mr-2 rounded-4xl" href="/">Repo</a>
+		<a class="btn btn-outline rounded-4xl" href="/">Repo</a>
 	</div>
 </div>
 
@@ -80,7 +78,7 @@
 	<p class="px-8">Appointments system</p>
 	<div class="mt-3">
 		<a class="btn btn-outline mr-2 rounded-4xl" href="https://nirvana-nails.vercel.app/">Live</a>
-		<a class="btn btn-outline mr-2 rounded-4xl" href="/">Repo</a>
+		<a class="btn btn-outline rounded-4xl" href="/">Repo</a>
 	</div>
 </div>
 
@@ -92,7 +90,7 @@
 	<p class="px-8">Dark Kitchen</p>
 	<div class="mt-3 mb-18">
 		<a class="btn btn-outline mr-2 rounded-4xl" href="https://chucky-burgers.vercel.app/">Live</a>
-		<a class="btn btn-outline mr-2 rounded-4xl" href="/">Repo</a>
+		<a class="btn btn-outline rounded-4xl" href="/">Repo</a>
 	</div>
 </div>
 
@@ -101,7 +99,7 @@
 	class="flex h-screen flex-col items-center justify-center bg-[url(/blade.webp)] bg-cover bg-center"
 >
 	<h2 class="text-2xl font-bold">About me</h2>
-	<p class="mt-2 px-8">
+	<p class=" mx-6 mt-2 lg:w-lg">
 		I’m passionate about building efficient, scalable, and user-friendly applications. With
 		experience in multiple e-commerce platforms, I prioritize performance, security, and seamless
 		user interactions. My goal is to create well-structured solutions that deliver real value.
