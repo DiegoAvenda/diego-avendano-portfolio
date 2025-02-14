@@ -1,7 +1,5 @@
 <script>
-	import { frontend } from '$lib/index';
-	import { backend } from '$lib/index';
-	import { tools } from '$lib/index';
+	import { techCategories } from '$lib/index';
 </script>
 
 <div
@@ -9,52 +7,31 @@
 >
 	<h1 class="mb-2 text-2xl font-bold lg:text-5xl">Diego Avendaño</h1>
 	<p class="mx-16 mb-20 text-lg sm:w-md">
-		Full stack developer focusing on building scalable and high-performance e-commerce platforms.
+		Full stack developer specialized in designing impactful e-commerce solutions, bridging
+		technology and business needs.
 	</p>
 </div>
 
 <div
 	id="tools"
-	class="flex h-screen flex-col items-center justify-center gap-2 bg-[url(/blade-runner.jpg)] bg-cover bg-center"
+	class="flex h-screen flex-col items-center justify-center gap-3 bg-[url(/blade-runner.jpg)] bg-cover bg-center lg:gap-6"
 >
 	<h2 class="text-3xl font-bold">Technologies</h2>
 
-	<div class="flex max-w-4xl flex-wrap justify-center">
-		<div class="flex flex-col items-center">
-			<h3 class="text-xl font-semibold">Frontend</h3>
-			<div class="grid grid-cols-3">
-				{#each frontend as front}
-					<div class="flex flex-col items-center">
-						<img class="h-14 w-14 object-contain" src={front.image} alt={front.name} />
-						<h4 class="text-center text-sm font-medium">{front.name}</h4>
-					</div>
-				{/each}
+	<div class="flex w-full flex-col justify-center gap-4 lg:flex-row lg:gap-32">
+		{#each techCategories as [category, techs]}
+			<div class="flex flex-col items-center gap-4">
+				<h3 class="text-xl font-semibold">{category}</h3>
+				<div class="flex gap-6">
+					{#each techs as tech}
+						<div class="flex flex-col items-center">
+							<img class="h-14 w-14 object-contain" src={tech.image} alt={tech.name} />
+							<h4 class="text-center text-sm font-medium">{tech.name}</h4>
+						</div>
+					{/each}
+				</div>
 			</div>
-		</div>
-
-		<div class="flex flex-col items-center gap-4">
-			<h3 class="text-xl font-semibold">Backend</h3>
-			<div class="grid grid-cols-3 gap-6">
-				{#each backend as back}
-					<div class="flex flex-col items-center">
-						<img class="h-14 w-14 object-contain" src={back.image} alt={back.name} />
-						<h4 class="text-center text-sm font-medium">{back.name}</h4>
-					</div>
-				{/each}
-			</div>
-		</div>
-
-		<div class="flex flex-col items-center gap-4">
-			<h3 class="text-xl font-semibold">Tools</h3>
-			<div class="grid grid-cols-3 gap-6">
-				{#each tools as tool}
-					<div class="flex flex-col items-center">
-						<img class="h-14 w-14 object-contain" src={tool.image} alt={tool.name} />
-						<h4 class="text-center text-sm font-medium">{tool.name}</h4>
-					</div>
-				{/each}
-			</div>
-		</div>
+		{/each}
 	</div>
 </div>
 
@@ -100,9 +77,9 @@
 >
 	<h2 class="text-2xl font-bold">About me</h2>
 	<p class=" mx-6 mt-2 lg:w-lg">
-		I’m passionate about building efficient, scalable, and user-friendly applications. With
-		experience in multiple e-commerce platforms, I prioritize performance, security, and seamless
-		user interactions. My goal is to create well-structured solutions that deliver real value.
+		I’m passionate about building efficient, secure, and intuitive applications. I focus on
+		performance optimization and seamless interactions, always aiming to create solutions that
+		deliver meaningful results for both users and businesses.
 	</p>
 </div>
 
