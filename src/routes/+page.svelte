@@ -79,9 +79,9 @@
 	<p class=" mx-6 mt-2 mb-10 lg:w-lg">
 		While I'm proficient in creating visually appealing front-end interfaces, my true passion lies
 		in developing the core logic and infrastructure that powers web applications. I specialize in
-		SvelteKit and MongoDB, with a particular interest in implementing robust authentication systems
-		and database integration. I thrive on solving complex technical challenges and building web
-		applications that deliver tangible value to users and businesses.
+		SvelteKit and MongoDB, with a particular focus on implementing robust OAuth 2.0 authentication
+		systems. I thrive on solving complex technical challenges and building web applications that
+		deliver tangible value to users and businesses.
 	</p>
 </div>
 
