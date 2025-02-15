@@ -6,7 +6,7 @@
 	}
 </script>
 
-<nav class="fixed mt-2 flex h-14 w-full items-center justify-between">
+<nav class="fixed z-2 mt-2 flex h-14 w-full items-center justify-between">
 	<button onclick={() => (isOpen = !isOpen)} class="relative h-12 w-12" aria-label="Menu">
 		<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
 			<div
@@ -26,8 +26,8 @@
 	<a class="mr-4" href="/">Diego Avendaño</a>
 </nav>
 
-<div class="top-0 h-full w-full bg-black sm:w-96" class:hidden={!isOpen}>
-	<ul class="mt-28 ml-4 space-y-4 text-4xl font-bold">
+<div class="fixed h-full w-full bg-black sm:w-96 lg:mx-auto lg:w-fit" class:hidden={!isOpen}>
+	<ul class="mx-4 mt-28 space-y-4 text-4xl font-bold lg:mx-12 lg:text-6xl">
 		<li><a onclick={() => toggle()} href="#tools">Technologies</a></li>
 		<li><a onclick={() => toggle()} href="#novastra">NovaastraCo</a></li>
 		<li><a onclick={() => toggle()} href="#burger">Svelte Burger</a></li>
