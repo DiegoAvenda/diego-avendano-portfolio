@@ -52,7 +52,7 @@
 	class="flex h-screen flex-col items-center justify-center bg-[url(/runner.jpg)] bg-cover bg-center"
 >
 	<h2 class="text-2xl font-bold">Barber Shop</h2>
-	<p class="px-8">Appointments system</p>
+	<p class="px-8">Appointment Booking System</p>
 	<div class="mt-3">
 		<a class="btn btn-outline mr-2 rounded-4xl" href="https://nirvana-nails.vercel.app/">Live</a>
 		<a class="btn btn-outline rounded-4xl" href="/">Repo</a>
