@@ -43,7 +43,8 @@
 	<p class="px-8">Tarot readings</p>
 	<div class="mt-3">
 		<a class="btn btn-outline mr-2 rounded-4xl" href="https://novaastraco.vercel.app/">Live</a>
-		<a class="btn btn-outline rounded-4xl" href="/">Repo</a>
+		<a class="btn btn-outline rounded-4xl" href="https://github.com/DiegoAvenda/novaastraco">Repo</a
+		>
 	</div>
 </div>
 
@@ -55,7 +56,9 @@
 	<p class="px-8">Appointment Booking System</p>
 	<div class="mt-3">
 		<a class="btn btn-outline mr-2 rounded-4xl" href="https://nirvana-nails.vercel.app/">Live</a>
-		<a class="btn btn-outline rounded-4xl" href="/">Repo</a>
+		<a class="btn btn-outline rounded-4xl" href="https://github.com/DiegoAvenda/nirvana-nails"
+			>Repo</a
+		>
 	</div>
 </div>
 
@@ -67,7 +70,9 @@
 	<p class="px-8">Dark Kitchen</p>
 	<div class="mt-3 mb-18">
 		<a class="btn btn-outline mr-2 rounded-4xl" href="https://chucky-burgers.vercel.app/">Live</a>
-		<a class="btn btn-outline rounded-4xl" href="/">Repo</a>
+		<a class="btn btn-outline rounded-4xl" href="https://github.com/DiegoAvenda/chucky-burgers"
+			>Repo</a
+		>
 	</div>
 </div>
 
